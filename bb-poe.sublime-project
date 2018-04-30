@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns" : ["data", "node_modules"]
+		}
+	],
+	
+	"build_systems":
+	[
+		{
+			"name": "Run Node",
+			"shell_cmd" : "node app.js"
+		}
+	]
+}
