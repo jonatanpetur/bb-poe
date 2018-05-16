@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 
+require('dotenv').config()
+
 const proofController = require('./controllers/proof.js')
 
 app.use(bodyParser.json())
