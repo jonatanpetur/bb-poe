@@ -10,9 +10,15 @@ module.exports = class MerkleTree(){
 		return this.tree.root()
 	}
 
+	//
+	generateProof(hash)
+	{
+		
+	}
+
 	// get a list of operations to verify the merkle tree
 	getOperations()
 	{
-		return this.tree;
+
 	}
 }

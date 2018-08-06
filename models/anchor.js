@@ -1,3 +1,5 @@
+
+
 module.exports = class Anchor{
 	constructor(type, transaction_id){
 		this.type = type
